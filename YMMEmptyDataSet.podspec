@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YMMEmptyDataSet'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'iOS Framework with fork of https://github.com/dzenbot/DZNEmptyDataSet'
 
 # This description is used to generate tags and improve search results.
