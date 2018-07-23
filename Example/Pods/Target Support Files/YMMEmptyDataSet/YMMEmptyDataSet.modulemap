@@ -1,0 +1,6 @@
+framework module YMMEmptyDataSet {
+  umbrella header "YMMEmptyDataSet-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - YMMEmptyDataSet (0.1.0)
+
+DEPENDENCIES:
+  - YMMEmptyDataSet (from `../`)
+
+EXTERNAL SOURCES:
+  YMMEmptyDataSet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YMMEmptyDataSet: 2dc0bb9fb62d3df12304ca76cedbb6cd422ca0dd
+
+PODFILE CHECKSUM: e50a29fa358fe6f1545e9056f8f09ee8ee114778
+
+COCOAPODS: 1.5.2

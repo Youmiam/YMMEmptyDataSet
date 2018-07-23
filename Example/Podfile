@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YMMEmptyDataSet_Example' do
+  pod 'YMMEmptyDataSet', :path => '../'
+
+  target 'YMMEmptyDataSet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
