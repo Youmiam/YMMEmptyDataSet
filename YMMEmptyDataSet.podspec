@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YMMEmptyDataSet'
   s.version          = '0.1.0'
-  s.summary          = 'iOS Framework with fork of https://github.com/dzenbot/DZNEmptyDataSet (add customisation)'
+  s.summary          = 'iOS Framework with fork of https://github.com/dzenbot/DZNEmptyDataSet'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'iOS Framework with fork of https://github.com/dzenbot/DZNEmptyDataSet (add customisation)'
 
-  s.homepage         = 'https://github.com/qclmnt/YMMEmptyDataSet'
+  s.homepage         = 'https://github.com/Youmiam/YMMEmptyDataSet'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qclmnt' => 'ios-dev@youmiam.com' }
   s.source           = { :git => 'https://github.com/Youmiam/YMMEmptyDataSet.git', :tag => s.version.to_s }
