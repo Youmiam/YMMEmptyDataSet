@@ -12,7 +12,8 @@
 		1DAE3A96411741F7041355519E5CAF2E /* YMMEmptyDataSet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3E56592FE1F92D267C3F92D7F3079E /* YMMEmptyDataSet-dummy.m */; };
 		355F7279B0B39B5CF7BFF6825FDBC41C /* Pods-YMMEmptyDataSet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7480FB0003934D2887AB1989872469D6 /* Pods-YMMEmptyDataSet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4532D799F1E03EFC3174CAAC026DCA4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		4C742E3C681B86DF68543187831253C4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC224EB1A3D2D6D25D90009B0FCE59 /* ReplaceMe.m */; };
+		664B9FFE21061B5A00C32647 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B9FFC21061B5A00C32647 /* UIScrollView+EmptyDataSet.m */; };
+		664B9FFF21061B5A00C32647 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 664B9FFD21061B5A00C32647 /* UIScrollView+EmptyDataSet.h */; };
 		6D029ABF2D81D20F7644C8B4A224C7C7 /* YMMEmptyDataSet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B80A6BCE124529B9602BF7631D96255E /* YMMEmptyDataSet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91E9D17068677771746EE8DB691AAE15 /* Pods-YMMEmptyDataSet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E297DE4AB618B2ECC2E130DC886CB9 /* Pods-YMMEmptyDataSet_Tests-dummy.m */; };
 		B213690EB48BA518CA787A436CB5B517 /* Pods-YMMEmptyDataSet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE370A7F5A46A9635936F697C055A7EC /* Pods-YMMEmptyDataSet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,10 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09FEF823536A3E52EF7A308E75100273 /* Pods_YMMEmptyDataSet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YMMEmptyDataSet_Tests.framework; path = "Pods-YMMEmptyDataSet_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B32F03FEF1D94EB9D541B0323A85EF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1150E87FC8D437C49A7388CF9ABBC7FF /* Pods_YMMEmptyDataSet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YMMEmptyDataSet_Example.framework; path = "Pods-YMMEmptyDataSet_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D801302FA9326A6D51EFB7267DFDDF2 /* YMMEmptyDataSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YMMEmptyDataSet.framework; path = YMMEmptyDataSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FEF823536A3E52EF7A308E75100273 /* Pods_YMMEmptyDataSet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMMEmptyDataSet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B32F03FEF1D94EB9D541B0323A85EF7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1150E87FC8D437C49A7388CF9ABBC7FF /* Pods_YMMEmptyDataSet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMMEmptyDataSet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D801302FA9326A6D51EFB7267DFDDF2 /* YMMEmptyDataSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YMMEmptyDataSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFE8D5728BD6787F81AFA6AB08F16A1 /* Pods-YMMEmptyDataSet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YMMEmptyDataSet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		236DA6F1256E091D3ECD09D979948071 /* Pods-YMMEmptyDataSet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YMMEmptyDataSet_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2E708D8A1A0663AD1703B0F4860FC015 /* Pods-YMMEmptyDataSet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YMMEmptyDataSet_Example-dummy.m"; sourceTree = "<group>"; };
@@ -51,19 +52,20 @@
 		544C8EB43C6C4B9C98F791C2A032A80F /* Pods-YMMEmptyDataSet_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YMMEmptyDataSet_Example-resources.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B0AB9E271262D5DF03743251045C768 /* YMMEmptyDataSet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YMMEmptyDataSet.xcconfig; sourceTree = "<group>"; };
+		664B9FFC21061B5A00C32647 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		664B9FFD21061B5A00C32647 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
 		6B802EDAC726C7A8DF187080CAEC26FB /* Pods-YMMEmptyDataSet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YMMEmptyDataSet_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7480FB0003934D2887AB1989872469D6 /* Pods-YMMEmptyDataSet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YMMEmptyDataSet_Example-umbrella.h"; sourceTree = "<group>"; };
-		7DEC224EB1A3D2D6D25D90009B0FCE59 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YMMEmptyDataSet/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		80DCD43FCECBBC3BCB14C93E7671EC2F /* Pods-YMMEmptyDataSet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YMMEmptyDataSet_Example.modulemap"; sourceTree = "<group>"; };
 		84B84D740FBEA4BB9DE10F66269826CE /* Pods-YMMEmptyDataSet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YMMEmptyDataSet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8DB2A73DC7BA4494C396EC4257440F78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8DB2A73DC7BA4494C396EC4257440F78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A3E56592FE1F92D267C3F92D7F3079E /* YMMEmptyDataSet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YMMEmptyDataSet-dummy.m"; sourceTree = "<group>"; };
 		A98778EAF08B340F4B6F0C1ADF53CCE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B37BDF2BFDB815E2D0D0BB28326FD583 /* Pods-YMMEmptyDataSet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YMMEmptyDataSet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B80A6BCE124529B9602BF7631D96255E /* YMMEmptyDataSet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YMMEmptyDataSet-umbrella.h"; sourceTree = "<group>"; };
 		B837C0090C2D9C24EB2F77A03E93B773 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDB26A1F834A71669DE302B0A06F026E /* YMMEmptyDataSet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YMMEmptyDataSet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDB26A1F834A71669DE302B0A06F026E /* YMMEmptyDataSet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YMMEmptyDataSet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C1E297DE4AB618B2ECC2E130DC886CB9 /* Pods-YMMEmptyDataSet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YMMEmptyDataSet_Tests-dummy.m"; sourceTree = "<group>"; };
 		C30D8DA5043175D6F860F0B71C8B80C9 /* Pods-YMMEmptyDataSet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YMMEmptyDataSet_Tests.modulemap"; sourceTree = "<group>"; };
 		C49135E232E79B77F8775E2D5E0CEA6A /* Pods-YMMEmptyDataSet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YMMEmptyDataSet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -128,6 +130,16 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		664B9FFB21061B5A00C32647 /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				664B9FFC21061B5A00C32647 /* UIScrollView+EmptyDataSet.m */,
+				664B9FFD21061B5A00C32647 /* UIScrollView+EmptyDataSet.h */,
+			);
+			name = DZNEmptyDataSet;
+			path = YMMEmptyDataSet/Classes/DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
 		729057317DB7159E814878903DB5860A /* Pods-YMMEmptyDataSet_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,7 +195,7 @@
 		B5FCC3105BC063FB2EBD17E3540D1451 /* YMMEmptyDataSet */ = {
 			isa = PBXGroup;
 			children = (
-				7DEC224EB1A3D2D6D25D90009B0FCE59 /* ReplaceMe.m */,
+				664B9FFB21061B5A00C32647 /* DZNEmptyDataSet */,
 				B88458BD4F20118AF7B4750F39CE88D0 /* Pod */,
 				82E827C187F1AAD33B48E300587230A7 /* Support Files */,
 			);
@@ -243,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D029ABF2D81D20F7644C8B4A224C7C7 /* YMMEmptyDataSet-umbrella.h in Headers */,
+				664B9FFF21061B5A00C32647 /* UIScrollView+EmptyDataSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C742E3C681B86DF68543187831253C4 /* ReplaceMe.m in Sources */,
+				664B9FFE21061B5A00C32647 /* UIScrollView+EmptyDataSet.m in Sources */,
 				1DAE3A96411741F7041355519E5CAF2E /* YMMEmptyDataSet-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
